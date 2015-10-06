@@ -50,7 +50,7 @@ ListView list;
                 "Aquarius",
                 "Pisces"};
         List<String> months = new ArrayList<String>(Arrays.asList(m));
-        ArrayAdapter<String> monthsAdapter = new ArrayAdapter<String>(this,R.layout.row_layout,R.id.textView,months);
+        CustomAdapter monthsAdapter = new CustomAdapter(this,R.layout.row_layout,months);
         list.setAdapter(monthsAdapter);
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
