@@ -19,7 +19,6 @@ TextView textView2,textView3;
         setContentView(R.layout.activity_zodiac);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 
-        setSupportActionBar(toolbar);
         textView3 = (TextView) findViewById(R.id.textView3);
         textView2 = (TextView) findViewById(R.id.textView2);
         imageView = (ImageView) findViewById(R.id.imageView);
