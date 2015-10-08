@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -152,39 +153,39 @@ ListView list;
                         break;
                     case 3:
                         new  AlertDialog.Builder(MainActivity.this).setTitle(m[position])
-                                .setMessage("June 21 - July 20").show();
+                                .setMessage("June 21 - July 22").show();
                         break;
                     case 4:
                         new  AlertDialog.Builder(MainActivity.this).setTitle(m[position])
-                                .setMessage("July 21 - August 20").show();
+                                .setMessage("July 23 - August 22").show();
                     break;
                     case 5:
                         new  AlertDialog.Builder(MainActivity.this).setTitle(m[position])
-                                .setMessage("August 21 - September 20").show();
+                                .setMessage("August 23 - September 22").show();
                         break;
                     case 6:
                         new  AlertDialog.Builder(MainActivity.this).setTitle(m[position])
-                                .setMessage("September 21 - October 20").show();
+                                .setMessage("September 23 - October 22").show();
                         break;
                     case 7:
                         new  AlertDialog.Builder(MainActivity.this).setTitle(m[position])
-                                .setMessage("October 21 - November 20").show();
+                                .setMessage("October 23 - November 21").show();
                     break;
                     case 8:
                         new  AlertDialog.Builder(MainActivity.this).setTitle(m[position])
-                                .setMessage("November 21 - December 20").show();
+                                .setMessage("November 22 - December 21").show();
                     break;
                     case 9:
                         new  AlertDialog.Builder(MainActivity.this).setTitle(m[position])
-                                .setMessage("December 21 - January 20").show();
+                                .setMessage("December 22 - January 19").show();
                         break;
                     case 10:
                         new  AlertDialog.Builder(MainActivity.this).setTitle(m[position])
-                                .setMessage("January 21 - February 20").show();
+                                .setMessage("January 20 - February 18").show();
                         break;
                     case 11:
                         new  AlertDialog.Builder(MainActivity.this).setTitle(m[position])
-                                .setMessage("February 21 - March 20").show();
+                                .setMessage("February 19 - March 20").show();
                         break;
                 }
                 return true;
