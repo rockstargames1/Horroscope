@@ -2,6 +2,7 @@ package f3.listapp.thirdapp.kishlay.myapplication;
 
 import android.app.AlertDialog;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,6 +13,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -28,7 +30,7 @@ ListView list;
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         list = (ListView)findViewById(R.id.list);
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        final FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -61,73 +63,73 @@ ListView list;
                 switch (position) {
                     case 0:
                         intent = new Intent(MainActivity.this, Zodiac.class);
-                        intent.putExtra("sign", "Hello " + m[position]);
+                        intent.putExtra("sign", m[position].toUpperCase());
                         intent.putExtra("image", Integer.toString(R.drawable.a0));
                         startActivity(intent);
                         break;
                     case 1:
                         intent = new Intent(MainActivity.this, Zodiac.class);
-                        intent.putExtra("sign", "Hello " + m[position]);
+                        intent.putExtra("sign", m[position].toUpperCase());
                         intent.putExtra("image", Integer.toString(R.drawable.a1));
                         startActivity(intent);
                         break;
                     case 2:
                         intent = new Intent(MainActivity.this, Zodiac.class);
-                        intent.putExtra("sign", "Hello " + m[position]);
+                        intent.putExtra("sign", m[position].toUpperCase());
                         intent.putExtra("image", Integer.toString(R.drawable.a2));
                         startActivity(intent);
                         break;
                     case 3:
                         intent = new Intent(MainActivity.this, Zodiac.class);
-                        intent.putExtra("sign", "Hello " + m[position]);
+                        intent.putExtra("sign", m[position].toUpperCase());
                         intent.putExtra("image", Integer.toString(R.drawable.a3));
                         startActivity(intent);
                         break;
                     case 4:
                         intent = new Intent(MainActivity.this, Zodiac.class);
-                        intent.putExtra("sign", "Hello " + m[position]);
+                        intent.putExtra("sign", m[position].toUpperCase());
                         intent.putExtra("image", Integer.toString(R.drawable.a4));
                         startActivity(intent);
                         break;
                     case 5:
                         intent = new Intent(MainActivity.this, Zodiac.class);
-                        intent.putExtra("sign", "Hello " + m[position]);
+                        intent.putExtra("sign", m[position].toUpperCase());
                         intent.putExtra("image", Integer.toString(R.drawable.a5));
                         startActivity(intent);
                         break;
                     case 6:
                         intent = new Intent(MainActivity.this, Zodiac.class);
-                        intent.putExtra("sign", "Hello " + m[position]);
+                        intent.putExtra("sign", m[position].toUpperCase());
                         intent.putExtra("image", Integer.toString(R.drawable.a6));
                         startActivity(intent);
                         break;
                     case 7:
                         intent = new Intent(MainActivity.this, Zodiac.class);
-                        intent.putExtra("sign", "Hello " + m[position]);
+                        intent.putExtra("sign", m[position].toUpperCase());
                         intent.putExtra("image", Integer.toString(R.drawable.a7));
                         startActivity(intent);
                         break;
                     case 8:
                         intent = new Intent(MainActivity.this, Zodiac.class);
-                        intent.putExtra("sign", "Hello " + m[position]);
+                        intent.putExtra("sign", m[position].toUpperCase());
                         intent.putExtra("image", Integer.toString(R.drawable.a8));
                         startActivity(intent);
                         break;
                     case 9:
                         intent = new Intent(MainActivity.this, Zodiac.class);
-                        intent.putExtra("sign", "Hello " + m[position]);
+                        intent.putExtra("sign", m[position].toUpperCase());
                         intent.putExtra("image", Integer.toString(R.drawable.a9));
                         startActivity(intent);
                         break;
                     case 10:
                         intent = new Intent(MainActivity.this, Zodiac.class);
-                        intent.putExtra("sign", "Hello " + m[position]);
+                        intent.putExtra("sign", m[position].toUpperCase());
                         intent.putExtra("image", Integer.toString(R.drawable.a10));
                         startActivity(intent);
                         break;
                     case 11:
                         intent = new Intent(MainActivity.this, Zodiac.class);
-                        intent.putExtra("sign", "Hello " + m[position]);
+                        intent.putExtra("sign", m[position].toUpperCase());
                         intent.putExtra("image", Integer.toString(R.drawable.a11));
                         startActivity(intent);
                         break;
